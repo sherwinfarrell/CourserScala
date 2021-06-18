@@ -1,0 +1,36 @@
+[Encoding]
+InputEncoding=UTF8
+
+[WFClient]
+RemoveICAFile=Yes
+TransportReconnectEnabled=On
+Version=2
+
+[ApplicationServers]
+RPC_DG_2 $P16735=
+
+[RPC_DG_2 $P16735]
+Address=;289efc2e92f3810f94eb1d4bead7d369a6d33ff07dbceb9b618d99cf
+AutologonAllowed=ON
+BrowserProtocol=HTTPonTCP
+CGPSecurityTicket=On
+ClearPassword=9FC53C317F2366
+ClientAudio=On
+ConnectionBar=1
+DesiredColor=8
+DesiredHRES=4294967295
+DesiredVRES=4294967295
+Domain=\C4EFC8BAB030813B
+DoNotUseDefaultCSL=On
+HttpBrowserAddress=!
+InitialProgram=#RPC_DG_2 $P16735
+LocHttpBrowserAddress=!
+LogonTicket=9FC53C317F2366C4EFC8BAB030813B
+LogonTicketType=CTXS1
+SessionsharingKey=EEDBD7AD07658C5009A571DBBD44B1053F9A3EC1
+SSLEnable=On
+SSLProxyHost=portal-asia-sin.bankofamerica.com:443
+TransportDriver=TCP/IP
+TWIMode=Off
+WinStationDriver=ICA 3.0
+
